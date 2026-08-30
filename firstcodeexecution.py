@@ -1,5 +1,4 @@
-name = input("Enter your name: ")
-age = int(input("enter your age: "))
-print("Hello, " + name + "! Welcome to the program.")   
-print("name: " + name)
-print("age: " + str(age))
+#finding area of circle
+radius = float(input("Enter the radius of the circle: "))
+area = 3.14 * radius ** 2
+print("The area of the circle is:", area)
