@@ -1,4 +1,4 @@
-#finding area of circle
-radius = float(input("Enter the radius of the circle: "))
-area = 3.14 * radius ** 2
-print("The area of the circle is:", area)
+#print pyramid pattern
+rows = 5
+for i in range(1, rows + 1):
+    print(" " * (rows - i) + "*" * (2 * i - 1))    
