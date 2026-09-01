@@ -9,3 +9,4 @@ b = int(a)
 c = int(a) - 2*b
 d = c-int(a)
 print ("the value of d:",d)
+print ("all done")
